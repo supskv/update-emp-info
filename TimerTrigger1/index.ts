@@ -10,6 +10,7 @@ const timerTrigger: AzureFunction = async function (
   // Use console normally
   intercept(context);
   // Start Logging
+  context.log("Test Source control");
   context.log(
     `> ${
       myTimer.isPastDue ? "[DELAY] " : ""

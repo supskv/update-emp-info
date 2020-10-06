@@ -1,0 +1,27 @@
+{
+  "name": "function-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "azure-function-log-intercept": "^1.0.7",
+    "moment": "^2.29.0",
+    "pg": "^8.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.0.2-beta2",
+    "@types/bluebird": "^3.5.32",
+    "@types/node": "^14.11.2",
+    "@types/pg": "^7.14.5",
+    "@types/validator": "^13.1.0",
+    "typescript": "^3.3.3"
+  }
+}

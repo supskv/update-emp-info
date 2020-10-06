@@ -9,7 +9,7 @@ let updated_count = 0;
 let skipped_count = 0;
 
 const boostrap = async () => {
-  console.log("Test Source control");
+  console.log("Test Source control from import script");
   // console.log(await checkPortData({ email: "boworant@scg.com" }));
   // return;
 

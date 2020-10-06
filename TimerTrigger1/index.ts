@@ -1,7 +1,7 @@
 import { AzureFunction, Context } from "@azure/functions";
 const intercept = require("azure-function-log-intercept");
 
-import { boostrap } from "./inport-script";
+import { boostrap } from "../inport-script";
 
 const timerTrigger: AzureFunction = async function (
   context: Context,
